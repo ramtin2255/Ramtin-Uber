@@ -1,0 +1,237 @@
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.section-1 {
+  background-image: url("DotCom_Update_Earner_bg2x.webp");
+  height: 100vh;
+  background-size: cover;
+  background-position: right;
+}
+
+img {
+  width: 100%;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  padding-left: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.topnav > div {
+  gap: 8px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 24px;
+  padding: 8px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.login-btn {
+  background-color: white;
+  color: black !important;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.services-wrapper {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.services-box {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #eeeeee;
+  height: 100px;
+}
+
+.service-list-item {
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-list-item:first-child {
+  border-bottom: 4px solid #333333;
+}
+
+.service-list-item a {
+  color: #333333;
+}
+
+.service-details {
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.font-lg {
+  font-size: 40px;
+}
+
+.font-md {
+  font-size: 24px;
+}
+
+.font-sm {
+  font-size: 16px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.font-grey {
+  color: grey;
+}
+
+.black-btn {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.learn-more {
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 6px;
+}
+.section-2 {
+  background-image: url(/HP-U4B-NYC-bkg.webp);
+  background-position: center;
+  height: 300px;
+  padding: 48px 64px;
+}
+
+.section-2 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+  padding: 80px;
+}
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+  gap: 100px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.medium-gap {
+  gap: 32px;
+}
+.section-4 {
+  padding: 0 32px;
+}
+
+.section-4 > div > div {
+  width: 50%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.underline {
+  border-bottom: 2px solid #333333;
+}
+.section-5 {
+  padding: 100px;
+}
+.section-6 {
+  padding: 128px;
+}
+.bg-color {
+  background-color: rgba(128, 128, 128, 0.17);
+}
+.border {
+  border: 1px solid black;
+  height: 220px;
+  width: 40%;
+  margin-top: 30px;
+}
+.bg-white {
+  background-color: white;
+}
+.items-center {
+  align-items: center;
+}
+.app-img {
+  width: 150px;
+  height: 150px;
+}
+
+.md-pad {
+  padding: 32px;
+}
+.section-7 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.footer {
+  background-color: #111111;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  color: white;
+}
+
