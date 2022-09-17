@@ -231,7 +231,15 @@ img {
   background-color: #111111;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   height: 100vh;
   color: white;
 }
 
+.footer a {
+  color: inherit;
+}
+
+.footer a:hover {
+  color: #aaaaaa;
+}
